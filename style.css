@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-color: hsl(185, 75%, 39%);
+}
+.card{
+    text-align: center;
+    border-radius: 1em;
+    /* width: 350px; */
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    background-color: white;
+    overflow: auto;
+}
+.name, .age{
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.name{
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    margin-right: 3px;
+}
+.city{
+    padding-bottom: 20px;
+    font-size: 15px;
+    border-bottom: solid 1px hsl(0, 0%, 86%);
+}
+ul{
+    list-style: none;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    font-size: 10px;
+    letter-spacing: 0.195em;
+}
+.profile-photo{
+    display: inline-block;
+    margin-bottom: 20px;
+    /* position: relative;
+    top: -57px; */
+    /* transform: translateY(-50%); */
+    margin-top: -55px;
+}
+.profile-photo img{
+    border-radius: 50%;
+    border: white solid 5px;
+}
+span{
+    font-weight: 700;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+    letter-spacing: 0px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
