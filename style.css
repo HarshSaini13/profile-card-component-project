@@ -1,12 +1,24 @@
 body{
     margin: 0px;
+    background-color: hsl(185, 75%, 39%);
+}
+.bg-top{
+    position: absolute;
+    right: 55%;
+    bottom: 30%;
+    z-index: -2;
+}
+.bg-bottom{
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    z-index: -3;
 }
 main{
     display: flex;
     justify-content: center;
     min-height: 100vh;
     align-items: center;
-    background-color: hsl(185, 75%, 39%);
 }
 .card{
     text-align: center;
@@ -17,6 +29,7 @@ main{
     color: hsl(0, 0%, 59%);
     background-color: white;
     overflow: auto;
+    /* position: relative; */
 }
 .name, .age{
     display: inline-block;
@@ -27,6 +40,7 @@ main{
     font-weight: 700;
     color: hsl(229, 23%, 23%);
     margin-right: 3px;
+    /* margin-top: 40px; */
 }
 .city{
     padding-bottom: 20px;
@@ -46,9 +60,9 @@ li{
 .profile-photo{
     display: inline-block;
     margin-bottom: 20px;
-    /* position: relative;
-    top: -57px; */
-    /* transform: translateY(-50%); */
+    /* position: absolute;
+    top: 85px;
+    right: 35%; */
     margin-top: -55px;
 }
 .profile-photo img{
