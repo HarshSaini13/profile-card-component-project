@@ -47,7 +47,7 @@ Learnt a lot about position property and also how to apply image at background a
 
 ### Continued development
 
-Will focus on background image property and more on ```position: fixed;``` property.
+Will focus on background image property and more on ```position: fixed;``` property and box-shadow too!
 
 ## Acknowledgments
 
