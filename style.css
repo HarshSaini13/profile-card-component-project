@@ -3,13 +3,13 @@ body{
     background-color: hsl(185, 75%, 39%);
 }
 .bg-top{
-    position: absolute;
+    position: fixed;
     right: 55%;
     bottom: 30%;
     z-index: -2;
 }
 .bg-bottom{
-    position: absolute;
+    position: fixed;
     left: 50%;
     top: 45%;
     z-index: -3;
@@ -29,8 +29,11 @@ main{
     color: hsl(0, 0%, 59%);
     background-color: white;
     overflow: auto;
-    /* position: relative; */
+    position: relative;
 }
+/* .bgImg{
+    height: 300px;
+} */
 .name, .age{
     display: inline-block;
     font-size: 18px;
@@ -68,6 +71,7 @@ li{
 .profile-photo img{
     border-radius: 50%;
     border: white solid 5px;
+    /* height: 30px; */
 }
 span{
     font-weight: 700;
